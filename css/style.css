@@ -1,0 +1,49 @@
+.header{
+    width:100%;
+    background-color: #A9A9A9;
+    padding: 20px;
+    position: static;
+   }
+body{
+    margin: auto;
+    overflow-x: hidden;
+}
+.footer{
+    width: 100%;
+    background-color: #000000;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    padding: 20px;
+}
+.split{
+    height: 100%;
+    width: 33%;
+    position: fixed;
+    z-index: -1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+.one{
+    left: 0;
+    background-color: #134144;
+}
+.two{
+    position: absolute;
+    margin-left: 33%;
+    padding: 10px;
+    background-color: #414344;
+    
+}
+.three{
+    right: 0%;
+    background-color: #525364;
+}
+.centered{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
